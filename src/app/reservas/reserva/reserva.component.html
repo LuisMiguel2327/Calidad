@@ -1,0 +1,37 @@
+<div>
+    <form>
+     
+     
+      <div class="container">
+        <label for="uname"><b>Reserva de libro</b></label><br><br>
+        <label for="uname"><b>Datos del libro</b></label><br><br>
+
+        <label for="uname"><b>Fecha de salida del libro</b></label>
+        <input type="text" placeholder="Ingrese fecha del libro" name="Fechalibro" required>  
+        
+        <label for="uname"><b>Nombre del libro</b></label>
+        <input type="text" placeholder="Ingrese nombre del libro" name="Nombrelibro" required>
+     
+        <label for="uname"><b>Autor del libro</b></label>
+        <input type="text" placeholder="Ingrese Autor del libro" name="Autorlibro" required>
+        
+        <label for="uname"><b>Codigo del libro</b></label>
+        <input type="text" placeholder="Ingrese codigo del libro" name="Codigolibro" required><br><br>
+
+        <label for="uname"><b>Datos del la persona que reserva</b></label><br><br>
+
+        <label for="uname"><b>Nombre de la persona</b></label>
+        <input type="text" placeholder="Ingrese nombre de la persona" name="NombrePersona" required>
+
+        <label for="uname"><b>Documento de la persona</b></label>
+        <input type="text" placeholder="Ingrese documento de la persona" name="Documentopersona" required>
+
+        <input type="button" (click)="entrar()" value="Reservar">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Recordar clave
+        </label>
+      </div>
+     
+      
+    </form>
+    </div>

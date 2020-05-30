@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'calidad';
+
+
+
+entrar(){
+  console.log('entrando');
+  alert("Hola mundo");
 }
+
+}
+
